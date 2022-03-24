@@ -103,7 +103,7 @@ function Board({ imgUrl }) {
           />
         ))}
       </ul>
-      {hasWon && isStarted && <div>Puzzle solved 🧠 🎉</div>}
+      {hasWon && isStarted && <div>Puzzle has been completed</div>}
       {!isStarted ?
         (<button onClick={() => handleStartClick()}>Start game</button>) :
         (<>
